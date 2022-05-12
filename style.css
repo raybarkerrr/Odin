@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* End of General Properties*/
+
+.logo img{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.navbar{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 1em 13em;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 3.5em;
+    font-size: 20px;
+}
+
+/* End of Navigation bar */
+
+.hero{
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 6em 13em;
+}
+
+.stuff{
+     color: white;
+     font-size: 25px;
+}
+
+button{
+    font-size: 16px;
+    width: 100px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #3882F6;
+    border-radius: 15px;
+    border: none;
+}
+
+.stuff p{
+    padding: 10px 0px;
+    margin: 3px;
+    font-size: 18px;
+
+}
+
+.pic img{
+    padding-left: 400px;
+    max-width: 30%;
+    max-height: 30%;
+  
+}
+
+/* End of First Section */
+
+.info h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    font-size: 35px;
+}
+
+.pictures{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7em 13em;
+    margin: auto;
+}
+
+.spam{
+    display: grid;
+    width: 10px;
+}
+
+/* End of Second Section */
+
+.hero-three{
+    display: flex;
+    background-color: grey;
+    padding: 5em 13em;
+    font-size: 40px;
+
+}
+
+.hero-three p{
+    background-color: ;
+}
+
+/* End of Third Section */
+
+.hero-four{
+    background-color: beige;
+    padding: 10em 13em;
+}
+
+.holder{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.para{
+    font-size: 40px;
+    
+}
+
+.para-two{
+    font-size: 20px;
+}
+
+.right{
+    font-size: 16px;
+    width: 100px;
+    padding: 2px;
+    color: #ffffff;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+}
+
+footer{
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
